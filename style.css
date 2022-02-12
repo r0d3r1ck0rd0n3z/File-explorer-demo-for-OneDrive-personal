@@ -6,6 +6,9 @@
     line-height: 48px;
     -webkit-font-smoothing: antialiased;
 }
+#od-content {
+padding: 30px;
+}
 
 #od-site {
   background-color: #0078D4; 
