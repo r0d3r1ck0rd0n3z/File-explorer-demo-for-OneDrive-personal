@@ -1,6 +1,10 @@
-body {
-  margin: 0 !important;
-  padding: 0 !important;
+.od-title {
+    display: inline-block;
+    font-weight: 600;
+    font-family: SegoeUI-SemiBold-final,Segoe UI Semibold,SegoeUI-Regular-final,Segoe UI,"Segoe UI Web (West European)",Segoe,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 48px;
+    -webkit-font-smoothing: antialiased;
 }
 
 #od-site {
@@ -61,6 +65,8 @@ body.loading #od-loading {
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .item {
