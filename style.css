@@ -147,3 +147,8 @@ pre {outline: 1px solid #ccc;padding: 5px;margin: 5px;overflow: scroll;height: 6
 .boolean { color: green; }
 .null { color: magenta; }
 .key { color: black; }
+
+big {
+ font-size: 20px;
+ vertical-align: middle;
+}
