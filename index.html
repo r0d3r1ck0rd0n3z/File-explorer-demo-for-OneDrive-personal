@@ -155,7 +155,7 @@
     // in which case it's only allowed to show a 'sign-in' button (if it
     // tried to pop up a window, most browsers' popup blockers would block it).
     // this handler needs to call odauth in non-click mode since it doesn't
-    // know why the hash changed.
+    // know why the hash changed. 
     var loadedForHash = "";
     $(window).bind('hashchange', function() {
       if (window.location.hash != loadedForHash) {
