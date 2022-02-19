@@ -53,7 +53,7 @@ padding: 30px;
 }
 
 #od-loading {
-  background: rgba(255,255,255,.8) url('spinner_grey_40_transparent.gif') 50% 50% no-repeat;
+  background: rgba(255,255,255,.8) url('spinner.gif') 50% 50% no-repeat;
   position: fixed;
   top: 0;
   left: 0;
