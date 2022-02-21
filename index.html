@@ -8,18 +8,12 @@
   
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script id="deleteThisLineInProd" src="analytics.js"></script>
-  <script id="odauthScript"></script>
-  
+  <script id="odauth" src="odauth.js"></script>
   <script>
-    var script  = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "odauth.js";
-    script.id   = "odauth"
-    script.setAttribute( "clientId" , YOUR_CLIENT_ID__ );
-    script.setAttribute( "scopes" , YOUR_SCOPES_HERE );
-    script.setAttribute( "redirectUri" , YOUR_REDIRECTURL );   
-    const target = document.querySelector('#odauthScript');
-    target.parentNode.insertBefore(script, target);
+      var script  = document.querySelector('#odauth');
+      script.setAttribute( "clientId" , YOUR_CLIENT_ID__ );
+      script.setAttribute( "scopes" , YOUR_SCOPES_HERE );
+      script.setAttribute( "redirectUri" , YOUR_REDIRECTURL );   
   </script>
   
   <script id="mainScript">
