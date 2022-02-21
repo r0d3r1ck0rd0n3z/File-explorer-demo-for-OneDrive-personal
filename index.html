@@ -3,11 +3,22 @@
 <head>
   <title>OneDrive Explorer Sample</title>
   <link rel="stylesheet" type="text/css" href="style.css"/>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-  <script id="odauth" src="odauth.js" clientId="475e54ae-7d93-4896-affe-a5d002d2e675" scopes="files.read files.read.all" redirectUri="https://r0d3r1ck0rd0n3z.github.io/OneDrive360/callback.html"></script>
-  <script id="deleteThisLineInProd" src="analytics.js"></script>
   <link rel="icon" href="https://d.sfx-df.ms/images/favicon.ico" type="image/x-icon">
   <link rel="mask-icon" href="https://d.sfx-df.ms/images/mask_icon.svg" color="#094AB2">
+  
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script id="deleteThisLineInProd" src="analytics.js"></script>
+  <script>
+    var script  = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "odauth.js";
+    script.id   = "odauth"
+    script.setAttribute( "clientId" , YOUR_CLIENT_ID_HERE );
+    script.setAttribute( "scopes" , "files.read files.read.all" );
+    script.setAttribute( "redirectUri" , "https://r0d3r1ck0rd0n3z.github.io/OneDrive360/callback.html" );
+    document.head.appendChild(script);
+  </script>
+  
   <script>
     function signInToOneDrive()
     {
