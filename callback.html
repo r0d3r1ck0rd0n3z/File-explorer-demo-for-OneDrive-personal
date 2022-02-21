@@ -18,8 +18,9 @@
             target.parentNode.insertBefore(script, target);
           </script>
         
-            <script id="authCallback">
-                setTimeout( onAuthCallback, 1000 );
-            </script>       
+        <script src="odauth.js"></script>
+        <script id="authCallback">
+               onAuthCallback();
+        </script>       
     </body>
 </html> 
