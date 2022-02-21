@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title></title>
+      <title></title>
+      <script id="deleteThisLineInProd" src="analytics.js"></script>
+      <script id="odauthScript"></script>
+
+      <script>
+        var script  = document.createElement("script");
+        script.type = "text/javascript";
+        script.src  = "odauth.js";
+        script.id   = "odauth"
+        script.setAttribute( "clientId" , YOUR_CLIENT_ID__ );
+        script.setAttribute( "scopes" , YOUR_SCOPES_HERE );
+        script.setAttribute( "redirectUri" , YOUR_REDIRECTURL );   
+        const target = document.querySelector('#odauthScript');
+        target.parentNode.insertBefore(script, target);
+      </script>
     </head>
     <body>
-        <script id="odauth" src="odauth.js" clientId="475e54ae-7d93-4896-affe-a5d002d2e675" scopes="files.read files.read.all" redirectUri="https://r0d3r1ck0rd0n3z.github.io/File-explorer-demo-for-OneDrive-personal/callback.html"></script>
         <script>
           onAuthCallback();
         </script>
