@@ -4,7 +4,7 @@ This is a modified version of the following GitHub repository:
 * https://github.com/OneDrive/onedrive-explorer-js
 
 I've copied only the relevant files, and updated the code to work with a OneDrive personal account. To see it in action, see the following link:
-* https://r0d3r1ck0rd0n3z.github.io/OneDrive360/
+* https://r0d3r1ck0rd0n3z.github.io/File-explorer-demo-for-OneDrive-personal/
 
 To test the login, click the 'Sign in to OneDrive' link on the upper right.
 
