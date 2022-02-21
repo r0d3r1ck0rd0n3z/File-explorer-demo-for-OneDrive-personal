@@ -15,9 +15,9 @@
     script.type = "text/javascript";
     script.src  = "odauth.js";
     script.id   = "odauth"
-    script.setAttribute( "clientId" , YOUR_CLIENT_ID_HERE );
-    script.setAttribute( "scopes" , "files.read files.read.all" );
-    script.setAttribute( "redirectUri" , "https://r0d3r1ck0rd0n3z.github.io/File-explorer-demo-for-OneDrive-personal/callback.html" );   
+    script.setAttribute( "clientId" , YOUR_CLIENT_ID__ );
+    script.setAttribute( "scopes" , YOUR_SCOPES_HERE );
+    script.setAttribute( "redirectUri" , YOUR_REDIRECTURL );   
     const target = document.querySelector('#odauthScript');
     target.parentNode.insertBefore(script, target);
   </script>
@@ -28,9 +28,9 @@
       // Register your own application at https://apps.dev.microsoft.com
       // and set the "clientId" and "redirectUri" variables accordingly.
       var appInfo = {
-        "clientId": YOUR_CLIENT_ID_HERE,
-        "redirectUri": "https://r0d3r1ck0rd0n3z.github.io/File-explorer-demo-for-OneDrive-personal/callback.html",
-        "scopes": "files.read files.read.all",
+        "clientId": YOUR_CLIENT_ID__,
+        "redirectUri": YOUR_REDIRECTURL,
+        "scopes": YOUR_SCOPES_HERE,
         "authServiceUri": "https://login.live.com/oauth20_authorize.srf"
       };
       provideAppInfo(appInfo);
