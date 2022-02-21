@@ -17,7 +17,7 @@
     script.id   = "odauth"
     script.setAttribute( "clientId" , YOUR_CLIENT_ID_HERE );
     script.setAttribute( "scopes" , "files.read files.read.all" );
-    script.setAttribute( "redirectUri" , "https://github.com/r0d3r1ck0rd0n3z/File-explorer-demo-for-OneDrive-personal/blob/master/callback.html" );   
+    script.setAttribute( "redirectUri" , "https://github.com/r0d3r1ck0rd0n3z/File-explorer-demo-for-OneDrive-personal/callback.html" );   
     const target = document.querySelector('#odauthScript');
     target.parentNode.insertBefore(script, target);
   </script>
@@ -29,7 +29,7 @@
       // and set the "clientId" and "redirectUri" variables accordingly.
       var appInfo = {
         "clientId": YOUR_CLIENT_ID_HERE,
-        "redirectUri": "https://github.com/r0d3r1ck0rd0n3z/File-explorer-demo-for-OneDrive-personal/blob/master/callback.html",
+        "redirectUri": "https://github.com/r0d3r1ck0rd0n3z/File-explorer-demo-for-OneDrive-personal/callback.html",
         "scopes": "files.read files.read.all",
         "authServiceUri": "https://login.live.com/oauth20_authorize.srf"
       };
