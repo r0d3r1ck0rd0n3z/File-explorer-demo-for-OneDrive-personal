@@ -8,6 +8,7 @@
   
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script id="deleteThisLineInProd" src="analytics.js"></script>
+  <script id="odauthScript"></script>
   
   <script>
     var script  = document.createElement("script");
@@ -17,7 +18,7 @@
     script.setAttribute( "clientId" , YOUR_CLIENT_ID_HERE );
     script.setAttribute( "scopes" , "files.read files.read.all" );
     script.setAttribute( "redirectUri" , "https://r0d3r1ck0rd0n3z.github.io/OneDrive360/callback.html" );   
-    const target = document.querySelector('#mainScript');
+    const target = document.querySelector('#odauthScript');
     target.parentNode.insertBefore(script, target);
   </script>
   
