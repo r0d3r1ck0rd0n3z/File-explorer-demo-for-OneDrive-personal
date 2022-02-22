@@ -48,7 +48,7 @@ You need to sign up for a Microsoft Azure account to add your own keys and scope
 &nbsp;
 ## Configuration
 
-Note that the demo won't work when you move or copy the files to another repository. This is because the authorization process is bound to my personal MS Azure account. To resolve, replace all instances of the following placeholders (both in the js and html files) with the values you provided during the creation/registration of your MS Azure project:
+Note that the demo won't work when you move or copy the files to another repository, since the OneDrive authorization process requires both the <tt>client ID</tt> and <tt>redirectURI</tt> parameters to be a 100% match with the connected MS Azure project. To resolve this issue, replace all instances of the following placeholders (both in the js and html files) with the values you provided during the creation/registration of your own MS Azure project:
 
 * <tt>YOUR_CLIENT_ID__</tt>
 * <tt>YOUR_REDIRECTURL</tt>
