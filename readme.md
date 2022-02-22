@@ -46,6 +46,16 @@ You need to sign up for a Microsoft Azure account to add your own keys and scope
 </details>
 
 &nbsp;
+## Configuration
+
+Note that the demo won't work when you move or copy the files to another repository. This is because the authorization process is bound to my personal MS Azure account. To resolve, replace all instances of the following placeholders (both in the js and html files) with the values you provided during the creation/registration of your MS Azure app:
+
+* <tt>YOUR_CLIENT_ID__</tt>
+* <tt>YOUR_REDIRECTURL</tt>
+* <tt>YOUR_SCOPES_HERE</tt>
+        
+        
+&nbsp;
 ## Original description
 
 The original description is given below:
