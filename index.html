@@ -16,7 +16,7 @@
       script.setAttribute( "redirectUri" , YOUR_REDIRECTURL );   
   </script>
   
-  <script id="mainScript">
+  <script id="SignInSignOutFunctions">
     function signInToOneDrive()
     {
       // Register your own application at https://apps.dev.microsoft.com
@@ -140,7 +140,7 @@
     <div id="od-items" class="od-pagecol"></div>
     <div id="od-json" class="od-pagecol"></div>
   </div>
-  <script>
+  <script id="CreateFileExplorerUI">
     var baseUrl = getQueryVariable("baseUrl")
     msGraphApiRoot = (baseUrl) ? baseUrl : "https://graph.microsoft.com/v1.0/me";
 
